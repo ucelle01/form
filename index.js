@@ -29,7 +29,7 @@ document.getElementById('votacaoForm').addEventListener('submit', async function
 
     try {
         // Envia o voto ao servidor
-        const response = await fetch('https://form-backend-6jnp.onrender.com', {
+        const response = await fetch('https://form-backend-6jnp.onrender.com/votar', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
